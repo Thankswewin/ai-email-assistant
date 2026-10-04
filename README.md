@@ -1,59 +1,44 @@
 # AI Email Assistant
 
-🚀 **Transform your rough notes into professional emails instantly**
+Turns rough notes into email drafts using local JavaScript templates.
 
-## Description
-The AI Email Assistant is a smart tool that converts your brief notes into well-structured, professional emails. Perfect for quickly drafting follow-ups, thank you notes, and business communications.
+## Status
 
-## Features
-- 🎯 **Multiple Tones**: Choose between Professional, Friendly, or Direct writing styles
-- ⚡ **Instant Generation**: Transform notes to emails in seconds
-- 💼 **Business Ready**: Professional formatting and language
-- 🔧 **Customizable**: Edit generated emails to fit your specific needs
+**Browser-based portfolio demo.** The checked-in `script.js` uses local
+JavaScript, rules, templates or simulated responses. It does not call a hosted
+LLM API or run a trained local model.
 
-## How to Use
-1. Select your desired email tone (Professional/Friendly/Direct)
-2. Input your rough notes or key points
-3. Click "Generate Email" to create a professional email
-4. Copy and use your generated email
+Generated suggestions are demonstration outputs and should be reviewed manually.
 
-## Technical Details
-- **Technology**: JavaScript, HTML/CSS, LLM Prompt Engineering
-- **Architecture**: Browser-based with API integration capability
-- **AI Model**: Compatible with OpenAI GPT, Gemini, and other LLMs
+## Try It Locally
 
-## Live Demo
-Try the live demo on my portfolio: [Portfolio Link](https://yourportfolio.com)
+1. Clone this repository.
+2. Open `index.html` in a modern browser.
+3. Use sample or non-sensitive inputs to explore the workflow.
 
-## Getting Started (for developers)
-```bash
-# Clone this repository
-git clone https://github.com/Thankswewin/ai-email-assistant.git
+No npm or Python installation is required for this standalone demo.
+Some fonts or styles may load from external CDNs.
 
-# Navigate to the project
-cd ai-email-assistant
+## Repository Layout
 
-# Open index.html in your browser
-open index.html
-```
+| File | Purpose |
+| --- | --- |
+| `index.html` | Interface and page markup |
+| `script.js` | Local workflow and demonstration logic |
+| `style.css` | Styling |
 
-## API Integration
-To use with external AI APIs:
-1. Get your API key from OpenAI or Google
-2. Add your API key to the configuration
-3. Deploy to a server for full functionality
+## Development
 
-## Contributing
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-This project is licensed under the MIT License.
+A real model integration would be a separate implementation. Keep provider
+credentials on a backend, never in browser JavaScript, and add appropriate
+validation and tests before using the tool with customer data.
 
 ## Author
-**Philemon Ofotan**
-- GitHub: [@Thankswewin](https://github.com/Thankswewin)
-- LinkedIn: [Philemon Ofotan](https://www.linkedin.com/in/philemon-ofotan-083266368/)
-- Email: pheelymon@gmail.com
 
-## Support
-If you find this useful, please give it a ⭐️
+[Philemon Ofotan](https://github.com/Thankswewin), founder of
+[Archyy Studio](https://archyy.live).
+
+## License
+
+This project is licensed under the MIT License.
+
